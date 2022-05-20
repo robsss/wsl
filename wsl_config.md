@@ -22,6 +22,7 @@
 - lynx
 - elinks
 - vscode `code`
+- thefuck
 
 The windows wsl in China does not work well cause the Great Fire Wall.
 
