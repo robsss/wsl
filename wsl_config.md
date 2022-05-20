@@ -12,7 +12,7 @@ Must-have programs
 - neovim
 - lynx
 - elinks
-- 
+- vscode `code`
 
 The windows wsl in China does not work well cause the Great Fire Wall.
 
@@ -77,4 +77,10 @@ proxychains wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_6
 bash Anaconda3-2022.05-Linux-x86_64.sh
 ```
 
+## vscode `code`
 
+directly input code, it will open the vscode on windows, but the terminal environment will work on wsl-Ubuntu
+
+```shell
+code
+```
