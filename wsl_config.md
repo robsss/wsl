@@ -1,6 +1,15 @@
 # wsl configuration
 
-Must-have programs
+# Must-have programs for windows
+- windows terminal 
+
+## [Adding Git-Bash to the new Windows Terminal](https://stackoverflow.com/questions/56839307/adding-git-bash-to-the-new-windows-terminal)
+
+## [vscode powerlevel10k font](https://github.com/romkatv/powerlevel10k/issues/671)
+
+## 
+
+# Must-have programs for wsl linux
 - zsh
 - oh-my-zsh
 - git
