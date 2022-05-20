@@ -1,5 +1,19 @@
 # wsl configuration
 
+Must-have programs
+- zsh
+- oh-my-zsh
+- git
+- proxychains or proxychains-ng
+- tmux
+- tilix
+- conda
+- vim 
+- neovim
+- lynx
+- elinks
+- 
+
 The windows wsl in China does not work well cause the Great Fire Wall.
 
 First if the 'sudo apt update' doesn't work, it caused by the internet configuration of some file is not correct for China.
@@ -25,7 +39,42 @@ sudo apt install git zsh tmux vim
 ```
 
 :(
+
+
 Every time I have a new liunx system, and I want make some one-click shell script to automatically configure my terminal and other frequently used software.
 But for now, I cann't finish this hard task. Maybe one day I have enough proficiency.
+
+## [proxychains](https://github.com/haad/proxychains)
+
+The continuation version of this proxychains project [proxychains-ng](https://github.com/rofl0r/proxychains-ng)
+
+ProxyChains is a UNIX program, that hooks network-related libc functions in dynamically linked programs via a preloaded DLL and redirects the connections through SOCKS4a/5 or HTTP proxies.
+
+```shell
+sudo apt install proxychains proxychains-ng
+```
+
+The detailed configuration could find in above repo, however, for short execute the command
+
+```shell
+sudo vim /etc/proxychains.conf
+```
+
+and add the following proxy server to the end of the file, the host machine Ethernet IP address is not fixed, since it is automaticly and dynamicly distributed by DHCP protocol.
+
+```
+http            172.17.71.57 20171
+socks5          172.17.71.57 20170
+http            172.17.71.57 7890
+```
+
+## conda 
+
+Install anaconda after configuring the proxy 
+
+```shell
+proxychains wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+bash Anaconda3-2022.05-Linux-x86_64.sh
+```
 
 
