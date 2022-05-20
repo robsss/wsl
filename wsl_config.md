@@ -77,6 +77,11 @@ socks5          172.17.71.57 20170
 http            172.17.71.57 7890
 ```
 
+**proxychains with git**
+
+In my environment, it seems that git only works with `socks5` protocol.
+
+
 ## conda 
 
 Install anaconda after configuring the proxy 
