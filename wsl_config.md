@@ -84,3 +84,19 @@ directly input code, it will open the vscode on windows, but the terminal enviro
 ```shell
 code
 ```
+
+## desktop environment 
+
+
+## google chrome install on wsl
+## [Run Linux GUI apps on the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
+```shell
+cd /tmp
+sudo proxychains wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt install --fix-broken -y
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
+
+To launch, enter: `google-chrome`
+
