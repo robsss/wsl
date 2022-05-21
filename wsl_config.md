@@ -23,6 +23,8 @@
 - elinks
 - vscode `code`
 - thefuck
+- xfce
+- ranger `command line filer manager` 
 
 The windows wsl in China does not work well cause the Great Fire Wall.
 
@@ -115,3 +117,21 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 To launch, enter: `google-chrome`
 
+## `xfce` 
+
+```shell
+sudo apt update
+sudo apt-get install xubuntu-desktop -y
+```
+
+Uninstall xfce
+
+```shell
+sudo apt-get remove xubuntu-desktop -y
+```
+
+## ranger
+
+```shell
+sudo apt install ranger
+```
