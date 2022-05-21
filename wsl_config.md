@@ -119,9 +119,18 @@ To launch, enter: `google-chrome`
 
 ## `xfce` 
 
+installation
+
 ```shell
 sudo apt update
 sudo apt-get install xubuntu-desktop -y
+sudo apt install xfce4
+```
+
+start the xfce
+
+```
+startxfce4
 ```
 
 Uninstall xfce
