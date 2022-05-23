@@ -1,7 +1,18 @@
 # wsl configuration
 
 # Must-have programs for windows
-- windows terminal 
+- `windows terminal` `mobaxterm` `terminal`
+- forxit pdf reader
+- listary pro file search tool
+- ABBYY FineReader `PDF broken by hacker`
+- instant messeging 
+  - telegram
+  - discor
+  - spotify
+- fluent reader `rss reader`
+- 7-zip banzip `unzip zipped files` 
+- 
+
 
 ## [Adding Git-Bash to the new Windows Terminal](https://stackoverflow.com/questions/56839307/adding-git-bash-to-the-new-windows-terminal)
 
@@ -25,6 +36,8 @@
 - thefuck
 - xfce
 - ranger `command line filer manager` 
+- newsboat  `rss reader`
+- 
 
 The windows wsl in China does not work well cause the Great Fire Wall.
 
@@ -144,3 +157,10 @@ sudo apt-get remove xubuntu-desktop -y
 ```shell
 sudo apt install ranger
 ```
+
+## newsboat `command line rss reader`
+
+```shell
+sudo apt install newsboat
+```
+
