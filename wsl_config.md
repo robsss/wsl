@@ -1,18 +1,21 @@
 # wsl configuration
 
 # Must-have programs for windows
-- `windows terminal` `mobaxterm` `terminal`
+- "windows terminal" "mobaxterm" `excellent terminal on windows terminal`
 - forxit pdf reader
 - listary pro file search tool
-- ABBYY FineReader `PDF broken by hacker`
+- ABBYY FineReader `PDF reader broken by hacker` 
 - instant messeging 
   - telegram
   - discor
   - spotify
 - fluent reader `rss reader`
 - 7-zip banzip `unzip zipped files` 
-- 
+- docker `excellent container for development`  
 
+- proxy client
+    - clash
+    - v2ray
 
 ## [Adding Git-Bash to the new Windows Terminal](https://stackoverflow.com/questions/56839307/adding-git-bash-to-the-new-windows-terminal)
 
@@ -37,7 +40,7 @@
 - xfce
 - ranger `command line filer manager` 
 - newsboat  `rss reader`
-- 
+- v2ray v2raya `proxy tools on Linux platform` 
 
 The windows wsl in China does not work well cause the Great Fire Wall.
 
