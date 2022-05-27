@@ -9,6 +9,7 @@
   - telegram
   - discor
   - spotify
+  - element `no privacy tracking messeger`
 - fluent reader `rss reader`
 - 7-zip banzip `unzip zipped files` 
 - docker `excellent container for development`  
