@@ -16,6 +16,9 @@
 - proxy client
     - clash
     - v2ray
+- chorme "privacy tracking problem"
+
+- chormium 'without google tracking but no account sync'
 
 ## [Adding Git-Bash to the new Windows Terminal](https://stackoverflow.com/questions/56839307/adding-git-bash-to-the-new-windows-terminal)
 
@@ -41,6 +44,15 @@
 - ranger `command line filer manager` 
 - newsboat  `rss reader`
 - v2ray v2raya `proxy tools on Linux platform` 
+- GUI web broser
+	-  0:00 Intro (Don't use Microsoft/Google Browsers)
+	- 1:17 Ungoogled Chromium (Recommendation for Chrome users, based on chromium)
+	- 3:50 Brave (Luke's pick, based on chromium)
+	- 6:16 Icecat (Good for privacy, bad for usability, based on firefox)
+	- 9:48 Waterfox (Firefox with better defaults, based on firefox)
+	- 12:10 Pale Moon (Based on old firefox, it's kind of it's own thing)
+	- 14:52 Qutebrowser (Vim keybinds, no mouse required)
+	- 36 Conclusion
 
 The windows wsl in China does not work well cause the Great Fire Wall.
 
