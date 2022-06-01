@@ -14,6 +14,7 @@
 - 7-zip banzip `unzip zipped files` 
 - docker `excellent container for development`  
 
+- calibre `excellent epub reader`
 - proxy client
     - clash
     - v2ray
