@@ -22,6 +22,8 @@
 
 - chormium 'without google tracking but no account sync'
 
+- CPUZ `CPU infomation`
+
 ## [Adding Git-Bash to the new Windows Terminal](https://stackoverflow.com/questions/56839307/adding-git-bash-to-the-new-windows-terminal)
 
 ## [vscode powerlevel10k font](https://github.com/romkatv/powerlevel10k/issues/671)
